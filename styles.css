@@ -4,6 +4,8 @@ body {
     background-color: #f0f0f0;
     text-align: center;
     padding: 50px;
+    background-image: url('imgs/background.avif');
+    background-repeat: repeat;
 }
 
 h1 {
@@ -44,4 +46,12 @@ p {
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+.header-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
